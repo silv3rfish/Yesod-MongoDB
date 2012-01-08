@@ -1,0 +1,5 @@
+<h1>Blog Entry:
+<ul id="blogs">
+        <li>
+            <h2>#{valueToString $ Database.MongoDB.valueAt "title" entry}
+            <p>#{valueToString $ Database.MongoDB.valueAt "content" entry}

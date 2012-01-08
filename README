@@ -1,0 +1,4 @@
+start ghci
+:load Main
+
+run main function

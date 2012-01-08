@@ -1,0 +1,7 @@
+<h1>Blog Entries:
+<ul id="blogs">
+    $forall entry <- entries
+        <li>
+            $with entryTitle <- valueToString $ Database.MongoDB.valueAt "title" entry
+                <a href=@{EntryR entryTitle}>#{valueToString $ Database.MongoDB.valueAt "title" entry}
+
