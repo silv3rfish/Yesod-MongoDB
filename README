@@ -1,3 +1,5 @@
+Requires MongoDB to be setup
+
 start ghci
 :load Main
 
